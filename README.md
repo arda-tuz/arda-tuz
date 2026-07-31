@@ -1,10 +1,3 @@
-<!--
-  GitHub profile README for https://github.com/arda-tuz
-
-  BEFORE PUBLISHING:
-  1. Replace every occurrence of https://github.com/arda-tuz/ with your exact LinkedIn profile URL.
-  2. Upload this README.md together with the assets/ directory to the public arda-tuz/arda-tuz repository.
--->
 
 <p align="center">
   <img src="./assets/profile-banner.svg" width="100%" alt="Hüseyin Arda Tuz — Artificial Intelligence Engineering and Computer Engineering" />
@@ -12,7 +5,7 @@
 
 <p align="center">
   <a href="mailto:h.tuz@etu.edu.tr"><img src="https://img.shields.io/badge/Email-h.tuz%40etu.edu.tr-0B7285?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
-  <a href="https://github.com/arda-tuz/"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+  <a href="www.linkedin.com/in/arda-tuz"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
   <a href="https://github.com/arda-tuz"><img src="https://img.shields.io/badge/GitHub-arda--tuz-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" /></a>
   <a href="https://huggingface.co/arda-tuz"><img src="https://img.shields.io/badge/Hugging%20Face-arda--tuz-FFD21E?style=for-the-badge&logo=huggingface&logoColor=111111" alt="Hugging Face" /></a>
 </p>
@@ -199,5 +192,5 @@ Co-developed an end-to-end recommendation platform that transforms **548,552 Ama
 
 <p align="center">
   <a href="mailto:h.tuz@etu.edu.tr"><img src="https://img.shields.io/badge/Let's%20Talk-h.tuz%40etu.edu.tr-35BFD3?style=for-the-badge&logo=gmail&logoColor=white" alt="Contact by email" /></a>
-  <a href="https://github.com/arda-tuz/"><img src="https://img.shields.io/badge/Professional%20Profile-LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn profile" /></a>
+  <a href="www.linkedin.com/in/arda-tuz"><img src="https://img.shields.io/badge/Professional%20Profile-LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn profile" /></a>
 </p>
