@@ -5,7 +5,7 @@
 
 <p align="center">
   <a href="mailto:h.tuz@etu.edu.tr"><img src="https://img.shields.io/badge/Email-h.tuz%40etu.edu.tr-0B7285?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
-  <a href="www.linkedin.com/in/arda-tuz"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+  <a href="[www.linkedin.com/in/arda-tuz](https://www.linkedin.com/in/arda-tuz/)"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
   <a href="https://github.com/arda-tuz"><img src="https://img.shields.io/badge/GitHub-arda--tuz-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" /></a>
   <a href="https://huggingface.co/arda-tuz"><img src="https://img.shields.io/badge/Hugging%20Face-arda--tuz-FFD21E?style=for-the-badge&logo=huggingface&logoColor=111111" alt="Hugging Face" /></a>
 </p>
