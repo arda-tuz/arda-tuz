@@ -1,7 +1,7 @@
 
-<p align="center">
+<!-- <p align="center">
   <img src="./assets/profile-banner.svg" width="100%" alt="Hüseyin Arda Tuz — Artificial Intelligence Engineering and Computer Engineering" />
-</p>
+</p> -->
 
 <p align="center">
   <a href="mailto:ardatuz4@gmail.com"><img src="https://img.shields.io/badge/Email-ardatuz4%40gmail.com-0B7285?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
