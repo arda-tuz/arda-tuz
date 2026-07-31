@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="260" viewBox="0 0 1200 260" role="img" aria-labelledby="title desc">
+  <title id="title">Adaptive Boss Fight</title>
+  <desc id="desc">Project card for a real-time AI-driven Unity boss encounter that models player behavior and adapts combat, narration, and music.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#18091F"/><stop offset="0.55" stop-color="#30103B"/><stop offset="1" stop-color="#111635"/></linearGradient>
+    <linearGradient id="a" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#FF5A7A"/><stop offset="0.52" stop-color="#B75CFF"/><stop offset="1" stop-color="#5F7CFF"/></linearGradient>
+    <pattern id="pixels" width="28" height="28" patternUnits="userSpaceOnUse"><rect width="2" height="2" fill="#F3D8FF" opacity="0.08"/></pattern>
+  </defs>
+  <rect width="1200" height="260" rx="24" fill="url(#bg)"/><rect width="1200" height="260" rx="24" fill="url(#pixels)"/>
+  <rect x="0" y="0" width="10" height="260" rx="5" fill="url(#a)"/>
+  <text x="52" y="54" fill="#F5A3D7" font-size="15" font-weight="800" letter-spacing="2" font-family="Inter,Segoe UI,Arial">GRADUATION PROJECT · REAL-TIME ADAPTIVE AI</text>
+  <text x="52" y="104" fill="#FFFFFF" font-size="37" font-weight="800" font-family="Inter,Segoe UI,Arial">Adaptive Boss Fight</text>
+  <text x="52" y="139" fill="#D8C6E8" font-size="18" font-family="Inter,Segoe UI,Arial">Player modeling from combat telemetry · Adaptive tactics · Generative narration · Dynamic music</text>
+  <g font-family="Inter,Segoe UI,Arial" font-size="14" font-weight="700">
+    <g transform="translate(52 176)"><rect width="176" height="40" rx="20" fill="#FF5A7A" fill-opacity="0.12" stroke="#FF5A7A" stroke-opacity="0.55"/><text x="88" y="26" text-anchor="middle" fill="#FFB4C5">16 BEHAVIOR FEATURES</text></g>
+    <g transform="translate(242 176)"><rect width="154" height="40" rx="20" fill="#B75CFF" fill-opacity="0.12" stroke="#B75CFF" stroke-opacity="0.55"/><text x="77" y="26" text-anchor="middle" fill="#DDB5FF">45 MS ROUND TRIP</text></g>
+    <g transform="translate(410 176)"><rect width="231" height="40" rx="20" fill="#FFFFFF" fill-opacity="0.055" stroke="#E5D7F5" stroke-opacity="0.25"/><text x="115.5" y="26" text-anchor="middle" fill="#E4D9EE">UNITY · FASTAPI · PYTORCH</text></g>
+  </g>
+  <!-- Abstract boss / feedback loop visual -->
+  <g transform="translate(905 36)">
+    <circle cx="115" cy="94" r="78" fill="#FFFFFF" fill-opacity="0.035" stroke="#D89AFF" stroke-opacity="0.20"/>
+    <path d="M75 78L91 57L108 70L124 50L143 71L160 58L172 82L160 139L70 139Z" fill="url(#a)" opacity="0.72"/>
+    <rect x="87" y="91" width="16" height="10" rx="3" fill="#120A22"/><rect x="139" y="91" width="16" height="10" rx="3" fill="#120A22"/>
+    <path d="M96 121c13 10 31 10 44 0" fill="none" stroke="#160A25" stroke-width="5" stroke-linecap="round"/>
+    <path d="M28 95c0-48 39-87 87-87" fill="none" stroke="#FF7F99" stroke-width="4" stroke-linecap="round"/>
+    <path d="M202 95c0 48-39 87-87 87" fill="none" stroke="#788CFF" stroke-width="4" stroke-linecap="round"/>
+    <path d="M25 82l3 13 13-3M205 108l-3-13-13 3" fill="none" stroke="#F2D9FF" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+  <rect x="0.75" y="0.75" width="1198.5" height="258.5" rx="23.25" fill="none" stroke="#E2B8F4" stroke-opacity="0.18" stroke-width="1.5"/>
+</svg>
