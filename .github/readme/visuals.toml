@@ -1,0 +1,112 @@
+# README visuals for this repository, generated with gbv (GitHub Better Visuals).
+# Rebuild: uv run --project <gbv toolkit dir> gbv build .github/readme/visuals.toml
+# Every SVG under assets/ is generated from this file and the sources it names.
+# Source tags: prior-readme:<line> = the owner's previous README; <clone>/<path>:<line> = a file in the local clone of the named featured repository.
+
+[meta]
+brand = "signal"
+out = "assets"
+
+# Hero. Name: prior-readme:3 (banner alt). Eyebrow and role: prior-readme:3, 13. Meta: prior-readme:14.
+# Taglines (static first line): prior-readme:25 (work areas), 157 and 159 (drone telemetry, GPS, radar, LiDAR),
+# 163 and 164 (YOLO tracking, OCR evaluation), 35 and 25 (forecasting, real-time telemetry).
+[[asset]]
+name = "profile-hero"
+type = "profile-hero"
+alt = "Hüseyin Arda Tuz - Artificial Intelligence Engineering and Computer Engineering at TOBB University of Economics and Technology, Ankara, Türkiye"
+eyebrow = "AI Engineering and Computer Engineering"
+title = "Hüseyin Arda Tuz"
+lines = [
+  "Computer vision, robotics and perception",
+  "Drone telemetry, GPS, radar and LiDAR",
+  "YOLO tracking and OCR evaluation",
+  "Forecasting, RAG and real-time telemetry",
+]
+meta = "TOBB University of Economics and Technology, Ankara, Türkiye"
+
+# Contact buttons. Email: prior-readme:7 (address), prior-readme:193 (label). LinkedIn: prior-readme:8, 194.
+[[asset]]
+name = "contact-email"
+type = "button"
+alt = "Let's Talk: email ardatuz4@gmail.com"
+label = "Let's Talk"
+glyph = "mail"
+
+[[asset]]
+name = "contact-linkedin"
+type = "button"
+alt = "Professional Profile: LinkedIn"
+label = "Professional Profile"
+glyph = "linkedin"
+
+# Featured card 1 (forecast). Link: https://github.com/Bitirme2025/AI_Financial_Assistant
+# Eyebrow: AI_Financial_Assistant/README.md:24. Title: AI_Financial_Assistant/README.md:1.
+# Summary: prior-readme:56; AI_Financial_Assistant/README.md:7, 39, 41, 147, 241.
+# Facts: AI_Financial_Assistant/README.md:301 (tests), AI_Financial_Assistant/README.md:308 (holdings and latency), AI_Financial_Assistant/LICENSE:1 (MIT).
+# Stack: AI_Financial_Assistant/README.md:282 (Python), requirements.txt:5 (FastAPI), README.md:163 (PyTorch),
+# frontend/package.json:15 (Next.js), requirements.txt:27 (PostgreSQL driver).
+[[asset]]
+name = "card-financial-assistant"
+type = "project-card"
+alt = "AI-Powered Personal Financial Assistant: five-day Mamba-2 forecasts, FinBERT sentiment, Monte Carlo risk and portfolio optimization behind one chat interface"
+eyebrow = "Decision support · Financial AI"
+title = "AI-Powered Personal Financial Assistant"
+summary = "Co-developed a full-stack decision-support platform that unifies five-day Mamba-2 forecasts, FinBERT sentiment, Monte Carlo risk and portfolio optimization behind one chat interface. Financial math stays in tested Python services; the language model orchestrates and explains."
+facts = ["155 selected tests passed", "Up to 10 holdings < 500 ms", "MIT license"]
+stack = ["Python", "FastAPI", "PyTorch", "Next.js", "PostgreSQL"]
+motif = "forecast"
+motif_horizon = "+5 days"  # AI_Financial_Assistant/README.md:7 (five-day forecasts)
+
+# Featured card 2 (behavior). Link: https://github.com/Chlorine-Graduation-Group/Adaptive_Boss_Fight
+# Eyebrow: Adaptive_Boss_Fight/README.md:16 (graduation-project tech demo), Adaptive_Boss_Fight/README.md:32 (narration and music).
+# Summary: prior-readme:71; Adaptive_Boss_Fight/README.md:24, 43, 46, 55.
+# Facts: Adaptive_Boss_Fight/README.md:209 (60 FPS), Adaptive_Boss_Fight/README.md:213 (round trip),
+# Adaptive_Boss_Fight_Unity/ProjectSettings/ProjectVersion.txt:1 (Unity).
+# Stack: Unity and C# (Adaptive_Boss_Fight_Unity, 52 .cs files), Adaptive_Boss_Fight/README.md:217 (FastAPI), Adaptive_Boss_Fight/README.md:12-13 (PyTorch, PostgreSQL).
+[[asset]]
+name = "card-adaptive-boss"
+type = "project-card"
+alt = "Adaptive Boss Fight: a Unity boss whose abilities, narration and music adapt to how the player fights"
+eyebrow = "Graduation project · Game AI and audio"
+title = "Adaptive Boss Fight"
+summary = "Co-developed a real-time Unity boss that turns combat data into a 16-feature behavioral profile. A PyTorch classifier sorts the player into four playstyles, and the boss's abilities, narration and music adapt. Batched telemetry keeps AI work off the frame-critical path."
+facts = ["45 ms adaptation round trip", "Stable 60 FPS in combat", "Unity 6000.0.58f1"]
+stack = ["Unity", "C#", "FastAPI", "PyTorch", "PostgreSQL"]
+motif = "behavior"
+# Four playstyle classes: Adaptive_Boss_Fight/README.md:70-73, 96; the model returns one probability per class
+# and keeps the top two (README.md:46, 75). The probabilities drawn are an illustrative example, as the caption says.
+motif_caption = "Playstyle · example output"
+motif_items = [["Aggressive", 0.58], ["Ranged/Tactical", 0.24], ["Defensive", 0.11], ["Erratic", 0.07]]
+
+# Featured card 3 (sync). Link: https://github.com/arda-tuz/dotsteward
+# Eyebrow: dotsteward/LICENSE:1 (MIT), dotsteward/README.md:3 (developers and their machines).
+# Summary: dotsteward/README.md:3-7, 9-13, 20, 29; "Built" = the owner's own repository (profile:repos.json:[2], isFork false).
+# Facts: dotsteward/README.md:91 (Ubuntu 24.04 tested, clean-machine install in CI), dotsteward/LICENSE:1.
+# Stack: dotsteward/README.md:29 (Nix, Home Manager), dotsteward/README.md:130 (Bash), dotsteward/engines/pins/dotsteward_pins/cli.py:1 (Python).
+[[asset]]
+name = "card-dotsteward"
+type = "project-card"
+alt = "dotsteward: reproduce your developer setup on every machine from a private repository"
+eyebrow = "Open source · Developer tooling"
+title = "dotsteward"
+summary = "Built a framework that reproduces a developer's setup on a new machine. Coding agents such as Claude Code or Codex rebuild tools, versions, settings and agent skills from a private repository with Nix and Home Manager. Changes made on one machine are written back for the next."
+facts = ["Tested on Ubuntu 24.04", "Clean-machine install in CI", "MIT license"]
+stack = ["Nix", "Home Manager", "Bash", "Python"]
+motif = "sync"
+motif_center = "workstation.toml"  # dotsteward/README.md:20
+motif_labels = ["laptop", "desktop", "private repo"]  # dotsteward/README.md:3-7, 20 (every machine, one private repository)
+
+# Stack grid. 28 tiles for the owner's technologies. Four items have no tile (PySpark, Mamba-2, FinBERT, ChromaDB)
+# and appear in the text line "Also used" under the grid. Captions must fit 74 px; Apache Spark is shortened to Spark.
+# Group labels are shortened versions of prior-readme:99, 110, 123, 136. Frameworks and Platforms & Tools split the old 10-item group.
+[[asset]]
+name = "stack"
+type = "stack"
+alt = "Technology stack. Languages: Python, Java, C#, JavaScript, TypeScript, SQL. AI, ML and Perception: PyTorch, scikit-learn, OpenCV, Hugging Face, YOLO, RAG (retrieval-augmented generation). Backend and Data: FastAPI, Django, PostgreSQL, TimescaleDB, Apache Spark, DuckDB. Frameworks: Next.js, React, Streamlit, Unity. Platforms and Tools: Docker, Git, Linux, Google Cloud, Nginx, Jupyter."
+groups = [
+  { label = "Languages", items = ["python", "text:Java", "text:C#", "javascript", "typescript", "text:SQL"] },
+  { label = "AI, ML & Perception", items = ["pytorch", "scikitlearn", "opencv", "huggingface", "yolo", "text:RAG"] },
+  { label = "Backend & Data", items = ["fastapi", "django", "postgresql", "timescale=TimescaleDB", "apachespark=Spark", "duckdb"] },
+  { label = "Frameworks", items = ["nextdotjs", "react", "streamlit", "unity"] },
+  { label = "Platforms & Tools", items = ["docker", "git", "linux", "googlecloud", "nginx=Nginx", "jupyter"] },
+]
